@@ -8,6 +8,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-ALS0.aml</string>
+				<key>Path</key>
+				<string>SSDT-ALS0.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-ASUS-SMC.aml</string>
+				<key>Path</key>
+				<string>SSDT-ASUS-SMC.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-BATT.aml</string>
 				<key>Path</key>
 				<string>SSDT-BATT.aml</string>
@@ -253,6 +269,46 @@
 				<key>Replace</key>
 				<data>WEFDSAk=</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(ATK) _Q0E to XQ0E</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1EwRQA=</data>
+				<key>Replace</key>
+				<data>WFEwRQA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(ATK) _Q0F to XQ0F</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1EwRgA=</data>
+				<key>Replace</key>
+				<data>WFEwRgA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(ATK) _Q0C to XQ0C</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1EwQwA=</data>
+				<key>Replace</key>
+				<data>WFEwQwA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>(ATK) _Q0D to XQ0D</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X1EwRAA=</data>
+				<key>Replace</key>
+				<data>WFEwRAA=</data>
+			</dict>
 		</array>
 	</dict>
 	<key>Booter</key>
@@ -328,6 +384,31 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-cursormem</key>
 				<data>AACQAA==</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,2,0</string>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel HD Graphics 4600</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>GwAAAA==</data>
+				<key>model</key>
+				<string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -461,6 +542,22 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AsusSMC</string>
+				<key>BundlePath</key>
+				<string>AsusSMC.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
 				<string></string>
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
@@ -528,6 +625,38 @@
 				<string>Contents/MacOS/SMCProcessor</string>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -822,7 +951,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -961,7 +1090,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=27</string>
+				<string>-v keepsyms=1 debug=0x100</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
