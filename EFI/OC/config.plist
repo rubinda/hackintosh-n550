@@ -397,7 +397,7 @@
 				<key>model</key>
 				<string>Intel HD Graphics 4600</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,27,0</string>
@@ -433,6 +433,8 @@
 				<string>Contents/MacOS/Lilu</string>
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -449,6 +451,8 @@
 				<string>Contents/MacOS/VirtualSMC</string>
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -465,6 +469,8 @@
 				<string>Contents/MacOS/ACPIBatteryManager</string>
 				<key>BundlePath</key>
 				<string>ACPIBatteryManager.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -481,6 +487,8 @@
 				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -497,6 +505,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -513,6 +523,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -529,6 +541,8 @@
 				<string>Contents/MacOS/AppleALC</string>
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -545,6 +559,8 @@
 				<string>Contents/MacOS/AsusSMC</string>
 				<key>BundlePath</key>
 				<string>AsusSMC.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -561,6 +577,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -577,6 +595,8 @@
 				<string>Contents/MacOS/BrcmFirmwareData</string>
 				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -593,6 +613,8 @@
 				<string>Contents/MacOS/BrcmPatchRAM3</string>
 				<key>BundlePath</key>
 				<string>BrcmPatchRAM3.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -609,6 +631,8 @@
 				<string>Contents/MacOS/RealtekRTL8111</string>
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -625,6 +649,8 @@
 				<string>Contents/MacOS/SMCProcessor</string>
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -641,6 +667,8 @@
 				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -657,6 +685,8 @@
 				<string></string>
 				<key>BundlePath</key>
 				<string>USBMap.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -673,6 +703,8 @@
 				<string>Contents/MacOS/VoodooPS2Controller</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -689,6 +721,8 @@
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -705,6 +739,8 @@
 				<string>Contents/MacOS/VoodooPS2Keyboard</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -721,6 +757,8 @@
 				<string>Contents/MacOS/VoodooPS2Mouse</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -737,6 +775,8 @@
 				<string>Contents/MacOS/VoodooPS2Trackpad</string>
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -753,6 +793,8 @@
 				<string>Contents/MacOS/WhateverGreen</string>
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -768,6 +810,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 		</array>
 		<key>Emulate</key>
@@ -776,6 +820,12 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -806,6 +856,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -834,6 +886,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -862,6 +916,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -890,6 +946,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 			<dict>
 				<key>Base</key>
@@ -918,6 +976,8 @@
 				<data></data>
 				<key>Skip</key>
 				<integer>0</integer>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -936,8 +996,6 @@
 			<false/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -952,6 +1010,24 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<false/>
+			<key>DisableLinkeditJettison</key>
+			<false/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
+			<key>LegacyCommpage</key>
+			<false/>
+		</dict>
+		<key>Force</key>
+		<array>
+		</array>
+		<key>Scheme</key>
+		<dict>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -998,6 +1074,8 @@
 			<false/>
 			<key>Target</key>
 			<integer>67</integer>
+			<key>SerialInit</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1024,8 +1102,6 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
@@ -1036,6 +1112,18 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+			<key>SecureBootModel</key>
+			<string>Disabled</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1095,6 +1183,8 @@
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1166,6 +1256,10 @@
 			<string>C02QR5ZKG86R</string>
 			<key>SystemUUID</key>
 			<string>54967FA9-93B3-48EA-B4A9-3A3B1FE2DDD1</string>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1260,6 +1354,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1293,6 +1389,12 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
+			<key>AppleImg4Verification</key>
+			<false/>
+			<key>AppleSecureBoot</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1322,6 +1424,8 @@
 				<false/>
 				<key>Size</key>
 				<integer>268435456</integer>
+				<key>Type</key>
+				<string>Reserved</string>
 			</dict>
 		</array>
 	</dict>
