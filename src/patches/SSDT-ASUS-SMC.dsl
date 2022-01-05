@@ -1,4 +1,4 @@
-DefinitionBlock("", "SSDT", 2, "hack", "asmc", 0)
+DefinitionBlock("", "SSDT", 2, "hack", "asmc", 0x00000000)
 {
     External (_SB.ATKP, IntObj)
     External (_SB.ATKD, DeviceObj)
@@ -12,7 +12,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "asmc", 0)
     {
         Method (SKBV, 1, NotSerialized)
         {
-            \_SB.PCI0.LPCB.EC0.WRAM (0x04B1, Arg0)
+            ^^PCI0.LPCB.EC0.WRAM (0x044B, Arg0)
             Return (Arg0)
         }   
     }
